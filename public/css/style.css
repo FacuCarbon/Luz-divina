@@ -1,0 +1,125 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/body.jpg');
+ 
+ 
+}
+
+a {
+  color: #00B7FF;
+}
+.cabecera{
+  background-color: rgb(245, 241, 241);
+  border-radius: 15px;
+}
+.cabecera h1{
+  font-family: 'Lobster Two', cursive;
+  font-size: 4.5em;
+  text-align: center;
+  text-shadow: black 2px 2px 5px;
+  }
+
+  .cabecera h5{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .logo img{
+    width: 140px;
+    height: 119px;
+  }
+
+  .barra-menu{
+    border-radius: 15px;
+  }
+
+  .barra-menu a{
+    font-weight: bold;
+  }
+
+
+  .masajes1{
+    height: 267px;
+    margin-left: 13%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+  }
+
+  .masajes p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: black 1px 1px 1px;
+    background-color: rgb(245, 241, 241);
+  }
+  
+  .masajes button{
+    margin-left: 45%;
+  }
+
+  /*.divisor {
+    align-items: center;
+    border-bottom: 1px solid white;
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: 12px;
+    text-align: center;
+  }*/
+
+  .reiki1{
+    height: 345px;
+    width: 910px;
+    margin-left: 13%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+  } 
+
+.reiki p{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: black 1px 1px 1px;
+  background-color: rgb(245, 241, 241);
+}
+
+.reiki button{
+  margin-left: 45%;
+}
+
+.tarot1{
+  height: 345px;
+  width: 910px;
+  margin-left: 13%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+} 
+
+.tarot p{
+text-align: center;
+font-weight: bold;
+font-family: 'Libre Baskerville', serif;
+text-shadow: black 1px 1px 1px;
+background-color: rgb(245, 241, 241);
+}
+
+.tarot button{
+margin-left: 45%;
+}
+
+.footer{
+  margin-top: 5%;
+  background-color: rgb(245, 241, 241);
+}
+
+.titulo-footer{
+  text-align: center;
+}
+
+.lista-footer li{
+  list-style: none;
+}
