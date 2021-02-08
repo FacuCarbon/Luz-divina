@@ -79,7 +79,7 @@ a{
 
   .reiki1{
     height: 345px;
-    width: 910px;
+    width: 74%;
     margin-left: 13%;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -100,7 +100,7 @@ a{
 
 .tarot1{
   height: 345px;
-  width: 910px;
+  width: 74%;
   margin-left: 13%;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -203,20 +203,81 @@ and (max-device-width : 1023px){
   margin-left: 4%;
 }
 
-.li-masajes, .li-reiki, .li-tarot, .li-contacto{
-  
-}
-
 .logo-footer img{
   width: 140px;
   height: 119px;
   margin-left: 0;
+  background-color: rgba(255, 233, 233, 0.5);
+  border-radius: 60%;
 }
 .lista-footer{
   margin-left: 23%;
 }
 .footer{
-  background-color: rgba(0, 0, 0, 0)
+  background-color: rgba(223, 220, 220, 0.5);
+  width: 95%;
 }
+
+}
+
+/* Media queries Dispositivo Moviles */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
+
+.logo img{
+  margin-left: 19%;
+}
+
+.masajes1{
+  margin-left: 0;
+  width: 100%;
+  height: 116px;
+}
+
+.masajes button{
+  margin-left: 25%;
+}
+
+.reiki1{
+  margin-left: 0;
+  width: 100%;
+  height: 116px;
+}
+
+.reiki button{
+  margin-left: 25%;
+}
+
+.tarot1{
+  margin-left: 0;
+  width: 100%;
+  height: 116px;
+}
+
+.tarot button{
+  margin-left: 25%;
+}
+
+.footer{
+  width: 100%;
+}
+
+.logo-footer img{
+  display: none;
+}
+
+.li-masajes, .li-reiki, .li-tarot, .li-contacto{
+  float: none;
+  margin-left: 25%;
+  margin-top: 6%;
+}
+
+.lista-footer{
+  height: 93%;
+  margin-top: 0;
+}
+
 
 }
