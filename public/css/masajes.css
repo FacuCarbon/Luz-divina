@@ -1,0 +1,115 @@
+@import "style.css";
+
+.principal-masajes img{
+    height: 267px;
+    margin-left: 13%;
+    margin-top: 3%;
+    margin-bottom: 25px;
+    border: 2px solid gray;
+}
+
+.row-general{
+    width: 100%;
+    margin-left: 5%;
+}
+
+.row-general img{
+    margin-top: 5%;
+}
+
+.imagen-masajes1 img{
+    width: 80%;
+    height: 300px;
+    border: solid 2px gray;
+    border-radius: 10%;
+}
+
+.imagen-masajes2 img{
+    width: 80%;
+    height: 300px;
+    border: solid 2px gray;
+    border-radius: 10%;
+}
+
+.que-son h3, h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.div-articulo{
+    background-color: rgba(255, 233, 233, 0.5);
+    width: 66%;
+    margin-right: 21%;
+}
+
+.articulo-beneficios-masajes:hover p{
+    height: 40px;
+}
+.articulo-beneficios-masajes p{
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+    height: 0;
+    transition: 300ms;
+    overflow: hidden;
+}
+
+.que-son p{
+    text-align: center;
+}
+
+.icono-check{
+    background-color: rgba(146, 246, 139, 0.5);
+    
+}
+
+.que-son p{
+    font-weight: bold;
+}
+
+.beneficios{
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Inicio medias queries */
+  
+  /* Media queries TABLET */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1023px){
+
+    .imagen-masajes1 img {
+        width: 100%;
+    }
+    .imagen-masajes2 img {
+        width: 100%;
+    }
+  
+}
+
+ /* Media queries Dispositivo Moviles */
+  
+ @media only screen 
+ and (min-device-width : 320px) 
+ and (max-device-width : 767px) {
+
+    .imagen-masajes1 img {
+        width: 100%;
+        height: 200px;
+    }
+    .imagen-masajes2 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img figure{
+        margin-right: 7%;
+    }
+
+    .que-son{
+        width: 100%;
+    }
+
+
+}

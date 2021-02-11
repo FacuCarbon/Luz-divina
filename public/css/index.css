@@ -1,0 +1,276 @@
+@import "style.css";
+
+.cabecera{
+    background-color: rgb(245, 241, 241);
+    border-radius: 15px;
+    margin-top: 1%;
+  }
+  .cabecera h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 4.5em;
+    text-align: center;
+    text-shadow: black 2px 2px 5px;
+    }
+  
+    .cabecera h5{
+      text-align: center;
+      font-weight: bold;
+    }
+  
+    .logo img{
+      width: 140px;
+      height: 119px;
+    }
+  
+    .barra-menu{
+      border-radius: 15px;
+    }
+  
+    .barra-menu a{
+      font-weight: bold;
+    }
+    .barra-menu a:hover{
+       font-size: 1rem;
+    }
+  
+  
+    .masajes1{
+      height: 267px;
+      margin-left: 13%;
+      margin-top: 3%;
+      margin-bottom: 25px;
+      border: 2px solid gray;
+    }
+  
+    .masajes p{
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Libre Baskerville', serif;
+      text-shadow: black 1px 1px 1px;
+      background-color: rgba(245, 241, 241, 0.2);
+    }
+    
+    .masajes button{
+      margin-left: 45%;
+    }
+  
+    /*.divisor {
+      align-items: center;
+      border-bottom: 1px solid white;
+      display: flex;
+      margin-top: 19px;
+      margin-bottom: 12px;
+      text-align: center;
+    }*/
+  
+    .reiki1{
+      height: 345px;
+      width: 74%;
+      margin-left: 13%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border: 2px solid gray;
+    } 
+  
+  .reiki p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: black 1px 1px 1px;
+    background-color: rgba(245, 241, 241, 0.2);
+  }
+  
+  .reiki button{
+    margin-left: 45%;
+  }
+  
+  .tarot1{
+    height: 345px;
+    width: 74%;
+    margin-left: 13%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid gray;
+  } 
+  
+  .tarot p{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: black 1px 1px 1px;
+  background-color: rgba(245, 241, 241, 0.2);
+  }
+  
+  .tarot button{
+  margin-left: 45%;
+  }
+  
+  .footer{
+    margin-top: 5%;
+    background-color: rgb(245, 241, 241);
+    width: 90%;
+    border-radius: 15px;
+  }
+  
+  .titulo-footer{
+    text-align: center;
+  }
+  
+  .lista-footer{
+    overflow: hidden;
+    margin-top: 11%;
+    height: 28%;
+    background-color: rgba(193, 189, 189, 0.2);
+    border-radius: 39%;
+  }
+  
+  .lista-footer li{
+    list-style: none;
+    font-weight: bold;
+  }
+  .lista-footer a:hover{
+    color: palevioletred;
+    font-size: 1rem;
+  }
+  .lista-footer a{
+    color: black;
+  }
+  
+  .li-masajes, .li-reiki, .li-tarot, .li-contacto{
+      float: left;
+      margin-left: 7%;
+      margin-top: 3%;
+  }
+  
+  .logo-footer img{
+    width: 140px;
+    height: 119px;
+    margin-left: 30%;
+  }
+  
+  /* Inicio medias queries */
+  
+  /* Media queries TABLET */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1023px){
+  
+  .barra-menu{
+    margin-left: 4%;
+  }
+  
+  .cabecera{
+    margin-left: 4%;
+  }
+  
+  .masajes1{
+    margin-left: 4%;
+    width: 96%;
+  }
+  
+  .masajes p{
+    margin-left: 4%;
+  }
+  
+  .reiki1{
+    height: 254px;
+    width: 96%;
+    margin-left: 4%;
+  }
+  .reiki p{
+    margin-left: 4%;
+  }
+  
+  .tarot1{
+    height: 247px;
+    width: 96%;
+    margin-left: 4%;
+  }
+  .tarot p{
+    margin-left: 4%;
+  }
+  
+  .logo-footer img{
+    width: 140px;
+    height: 119px;
+    margin-left: 0;
+    background-color: rgba(255, 233, 233, 0.5);
+    border-radius: 60%;
+  }
+  .lista-footer{
+    margin-left: 23%;
+  }
+  .footer{
+    background-color: rgba(223, 220, 220, 0.5);
+    width: 95%;
+  }
+  
+  }
+  
+  /* Media queries Dispositivo Moviles */
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 767px) {
+  
+  .logo img{
+    margin-left: 19%;
+  }
+  
+  .masajes1{
+    margin-left: 0;
+    width: 100%;
+    height: 116px;
+  }
+  
+  .masajes button{
+    margin-left: 25%;
+  }
+  
+  .reiki1{
+    margin-left: 0;
+    width: 100%;
+    height: 116px;
+  }
+  
+  .reiki button{
+    margin-left: 25%;
+  }
+  
+  .tarot1{
+    margin-left: 0;
+    width: 100%;
+    height: 116px;
+  }
+  
+  .tarot button{
+    margin-left: 25%;
+  }
+  
+  .footer{
+    width: 100%;
+  }
+  
+  .logo-footer img{
+    display: none;
+  }
+  
+  .li-masajes, .li-reiki, .li-tarot, .li-contacto{
+    float: none;
+    margin-top: 6%;
+  }
+  
+  .lista-footer{
+    height: 93%;
+    margin-top: 0;
+  }
+
+  .li-reiki{
+    margin-left: 51%;
+  }
+  
+  .li-contacto{
+    margin-left: 45%;
+  }
+  
+  }

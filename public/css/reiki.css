@@ -1,0 +1,40 @@
+@import "style.css";
+
+.reiki1-vista{
+    height: 245px;
+    width: 54%;
+    margin-left: 22%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid gray;
+}
+
+.articulo-central{
+    margin-left: 12%;
+    background-color: rgba(255, 233, 233, 0.5);
+}
+
+.lateral-2 img{
+    margin-left: 9%;
+}
+
+.central img{
+ border-radius: 15%;
+ border: solid 2px gray;
+ height: 170px;
+width: 270px;
+}
+
+.para-hover:hover p{
+    height: 40px;
+}
+
+.para-hover p{
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+    height: 0;
+    transition: 100ms;
+    overflow: hidden;
+}
