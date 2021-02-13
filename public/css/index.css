@@ -224,7 +224,7 @@
   }
   
   .masajes button{
-    margin-left: 25%;
+    margin-left: 31%;
   }
   
   .reiki1{
@@ -234,7 +234,7 @@
   }
   
   .reiki button{
-    margin-left: 25%;
+    margin-left: 31%;
   }
   
   .tarot1{
@@ -244,7 +244,7 @@
   }
   
   .tarot button{
-    margin-left: 25%;
+    margin-left: 31%;
   }
   
   .footer{
@@ -254,23 +254,16 @@
   .logo-footer img{
     display: none;
   }
-  
-  .li-masajes, .li-reiki, .li-tarot, .li-contacto{
-    float: none;
-    margin-top: 6%;
-  }
-  
+
   .lista-footer{
-    height: 93%;
-    margin-top: 0;
+
+    height: 69%;
+    border-radius: 0%;
   }
 
-  .li-reiki{
-    margin-left: 51%;
-  }
-  
   .li-contacto{
-    margin-left: 45%;
+    margin-top: 12%;
+    margin-left: 26%;
   }
   
   }
